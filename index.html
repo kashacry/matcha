@@ -11,52 +11,59 @@
         <div class="header">
             <h2>Header Logo</h2>
             <ul class="header-links">
-                <li><a href="#">Header nav1</a></li>
-                <li><a href="#">Header nav2</a></li>
-                <li><a href="#">Header nav3</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="#infos">Infos</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
             </ul>
         </div>
         <div class="hero">
             <div class="hero-title">
-                <h1>Matcha Guide</h1>
+                <h1 id="guide">Matcha Guide</h1>
                 <p class="hero-text">Matcha is a fine powdered tea with a bright, emerald green color and a rich, vegetal taste. It's made from stone-ground green tea leaves and produced in Japan.</p>
                 <button class="sign-up-button" type="button" alt="Sign Up Button">Sign Up</button>
             </div>
             <img class="hero-image" src="./matchaimg.jpg" alt="Picture about matcha" width="400" height="400" />
         </div>
     </section>
-    <section class="matchainfos">
-        <div class="info1">
-            <img src="./info1.jpg" alt="Picture about matcha" width="300" height="300" />
-            <p>Matcha was grown by accident</p>
-        </div>
-        <div class="info2">
-            <img src="./info2.jpg" alt="Picture about matcha" width="300" height="300" />
-            <p>Matcha is rich in antioxidants</p>
-        </div>
-        <div class="info3">
-            <img src="./info3.jpg" alt="Picture about matcha" width="300" height="300" />
-            <p>Only suspension tea in the world</p>
-        </div>
-        <div class="info4">
-            <img src="./info4.jpg" alt="Picture about matcha" width="300" height="300" />
-            <p>Helps in weight loss</p>
+    <section class="info-wrapper">
+        <h2 id="infos">Infos about Matcha</h2>
+        <div class="matchainfos">
+            <div class="info">
+                <img class="info1" src="./info1.jpg" alt="Picture about matcha" width="300" height="300" />
+                <p class="info-subtext">Matcha was grown by accident</p>
+            </div>
+            <div class="info">
+                <img class="info2" src="./info2.jpg" alt="Picture about matcha" width="300" height="300" />
+                <p class="info-subtext">Matcha is rich in antioxidants</p>
+            </div>
+            <div class="info">
+                <img class="info3" src="./info3.jpg" alt="Picture about matcha" width="300" height="300" />
+                <p class="info-subtext">Only suspension tea in the world</p>
+            </div>
+            <div class="info">
+                <img class="info4" src="./info4.jpg" alt="Picture about matcha" width="300" height="300" />
+                <p class="info-subtext">Helps in weight loss</p>
+            </div>
         </div>
     </section>
-    <section class="quotes">
+    <section class="quote-wrapper">
         <div class="quote">
-            <blockquote>"Tea is the elixir of life." - Lao Tzu</blockquote>
+            <p class="quote-text">Tea is the elixir of life.</p>
+            <p class="quote-author">Lao Tzu</p>
         </div>
     </section>
-    <section class="promotion">
-        <div class="promo">
-            <h3>This is a random promotion!</h3>
-            <p>This really is a random promotion, would you believe it?</p>
+    <section class="promo-wrapper">
+        <div class="promo-box">
+            <div class="promo">
+                <h3 class="promo-title" id="newsletter">Matcha Newsletter</h3>
+                <p class="promo-text">Click on the sign up button to the right to get our weekly newsletter!</p>
+            </div>
+            <button class="sign-up-button second" type="button" alt="Sign Up to newsletter">Sign Up</button>
         </div>
     </section>
-    <section class="footer">
+    <section class="footer-wrapper">
         <div class="footer">
-            <p>All rights reserved.</p>
+            <p class="footer-text">Matcha Inc.</p>
         </div>
     </section>
 </body>
